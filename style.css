@@ -4,7 +4,7 @@
 }
 
 .container {
-  height: 1500px;
+  height: 100vh;
   width: 100vw;
   background: wheat;
   border: 1px solid black;
@@ -15,7 +15,7 @@
 }
 
 .bottom-container {
-  height: 1000px;
+  height: 100vh;
   width: 100vw;
   background: skyblue;
   border: 1px solid black;
