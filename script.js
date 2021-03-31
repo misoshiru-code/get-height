@@ -10,7 +10,7 @@ $(function ($) {
   } else {
     $('.answer').text('違う値です');
   }
-
+/*
   $(window).resize(function () {
 
     $('.inner-height').text('innerHeight = ' + window.innerHeight);
@@ -24,4 +24,5 @@ $(function ($) {
       $('.answer').text('違う値です');
     }
   });
+  */
 });
