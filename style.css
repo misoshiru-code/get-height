@@ -12,6 +12,11 @@
 
 #vh {
   height: 100vh;
+  text-align: center;
+}
+
+.inner-height {
+  padding-top: 300px;
 }
 
 .bottom-container {
