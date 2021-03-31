@@ -13,7 +13,7 @@ $(function ($) {
 
   $(window).resize(function () {
 
-    window.innerHeight;
+    $(window).height();
 
     /*$('.inner-height').text('innerHeight = ' + window.innerHeight);
     $('.outer-height').text('outerHeight = ' + window.outerHeight);
