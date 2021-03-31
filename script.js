@@ -13,10 +13,8 @@ $(function ($) {
 
   $(window).resize(function () {
 
-    $(window).height($(window).height());
-
-    /*$('.inner-height').text('innerHeight = ' + window.innerHeight);
-    $('.outer-height').text('outerHeight = ' + window.outerHeight);
+    $('.inner-height').text('innerHeight = ' + $(window).height());
+    /*$('.outer-height').text('outerHeight = ' + window.outerHeight);
     $('.vh').text('100vh = ' + $('#vh').height());
     $('.screen-height').text('screen.height = ' + screen.height);
 
